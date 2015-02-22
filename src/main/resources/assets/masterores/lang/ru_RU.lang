@@ -1,0 +1,36 @@
+tile.RubyOre.name=Рубиновая руда
+tile.DragoniumOre.name=Драгониумовая руда
+tile.CorruptDiamondOre.name=Поврежденно-алмазная руда
+tile.CorruptDiamondBlock.name=Блок поврежденных алмазов
+tile.PureDiamondBlock.name=Чистый алмазный блок
+
+item.DragoniumShovel.name=Драгониумовая лопата
+
+item.DragoniumAxe.name=Драгониумовый топор
+
+item.DragoniumSword.name=Драгониумовый меч
+item.RubySword.name=Рубиновый меч
+
+item.DragoniumPickaxe.name=Драгониумовая кирка
+item.RubyPickaxe.name=Рубиновая кирка
+item.PurePickaxe.name=Чистая кирка
+
+item.DragoniumIngot.name=Драгониумовый слиток
+item.Ruby.name=
+item.CorruptDiamond.name=Поврежденный алмаз [В разработке]
+item.PureDiamond.name=Чистый алмаз [В разработке]
+item.BasicWMC.name=Базовый модуль манипулирования окружающей средой
+item.AdvancedWMC.name=Продвинутый модуль манипулирования окружающей средой
+item.WorldEssence.name=Ессенция мира
+item.HardenedStick.name=Уплотненная палка
+item.ZoriumIngot.name=Цориумовый слиток
+
+item.ApplePie.name=Яблочный пирог
+item.GoldenApplePie.name=Златояблочный пирог
+
+item.Dragonium_Helmet.name=Драгониумовый шлем
+item.Dragonium_Chestplate.name=Драгониумовый нагрудник
+item.Dragonium_Leggings.name=Драгониумовые штаны
+item.Dragonium_Boots.name=Драгониумовые ботинки
+
+itemGroup.MasterOres=Master Ores
