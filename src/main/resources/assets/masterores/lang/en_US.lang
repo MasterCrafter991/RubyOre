@@ -1,0 +1,36 @@
+tile.RubyOre.name=Ruby Ore
+tile.DragoniumOre.name=Dragonium Ore
+tile.CorruptDiamondOre.name=Corrupt Diamond Ore
+tile.CorruptDiamondBlock.name=Corrupt Diamond Block
+tile.PureDiamondBlock.name=Pure Diamond Block
+
+item.DragoniumShovel.name=Dragonium Shovel
+
+item.DragoniumAxe.name=Dragonium Axe
+
+item.DragoniumSword.name=Dragonium Sword
+item.RubySword.name=Ruby Sword
+
+item.DragoniumPickaxe.name=Dragonium Pickaxe
+item.RubyPickaxe.name=Ruby Pickaxe
+item.PurePickaxe.name=Pure Pickaxe
+
+item.DragoniumIngot.name=Dragonium Ingot
+item.Ruby.name=Ruby
+item.CorruptDiamond.name=Corrupt Diamond [W.I.P]
+item.PureDiamond.name=Pure Diamond [W.I.P]
+item.BasicWMC.name=Basic World Manipulation Core
+item.AdvancedWMC.name=Advanced World Manipulation Core
+item.WorldEssence.name=World Essence
+item.HardenedStick.name=Hardened Stick
+item.ZoriumIngot.name=Zorium Ingot
+
+item.ApplePie.name=Apple Pie
+item.GoldenApplePie.name=Golden Apple Pie
+
+item.Dragonium_Helmet.name=Dragonium Helmet
+item.Dragonium_Chestplate.name=Dragonium Chestplate
+item.Dragonium_Leggings.name=Dragonium Leggings
+item.Dragonium_Boots.name=Dragonium Boots
+
+itemGroup.MasterOres=Master Ores

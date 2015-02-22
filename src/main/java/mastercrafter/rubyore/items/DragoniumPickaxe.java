@@ -1,25 +1,15 @@
 package mastercrafter.rubyore.items;
 
-import net.minecraft.client.renderer.texture.IIconRegister;
+import mastercrafter.rubyore.Main;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemPickaxe;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class DragoniumPickaxe extends ItemPickaxe {
 
-	private String texturePath = "masterores:";
-
-	public DragoniumPickaxe(ToolMaterial material,
-			String textureName) {
+	public DragoniumPickaxe(ToolMaterial material, String textureName) {
 		super(material);
 		this.setUnlocalizedName(textureName);
-		texturePath += textureName;
+		this.setTextureName(Main.MODID + ":" + "DragoniumPickaxe");
+		this.setCreativeTab(CreativeTabs.tabTools);
 	}
-
-	@Override
-	@SideOnly(Side.CLIENT)
-	public void registerIcons(IIconRegister IIconRegister) {
-		this.itemIcon = IIconRegister.registerIcon(texturePath);
-	}
-
 }

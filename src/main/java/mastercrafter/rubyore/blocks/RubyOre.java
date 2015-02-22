@@ -1,40 +1,31 @@
 package mastercrafter.rubyore.blocks;
 
-import java.util.Random;
+import java.util.ArrayList;
 
 import mastercrafter.rubyore.Main;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+
+import com.google.common.collect.Lists;
 
 public class RubyOre extends Block {
 
-    private String texturePath = "masterores:";  
-    
-    public RubyOre (Material blockMaterial, String textureName) {
-        
-        super(blockMaterial);
-        this.setCreativeTab(CreativeTabs.tabBlock);
-        this.setBlockName(textureName);
-        texturePath += textureName;
-    }
-    
-    @Override
-    public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_) {
-    	return Main.Ruby;
-    }
-    
-    public int quantityDropped(Random random)
-    {
-        return 1;
-    }
+	public RubyOre(Material blockMaterial, String textureName) {
 
-    public void registerIcons(IIconRegister IIconRegister)
-    {
-        this.blockIcon = IIconRegister.registerIcon(texturePath);
-    }
-    
+		super(blockMaterial);
+		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setBlockName(textureName);
+		this.setBlockTextureName(Main.MODID + ":" + textureName);
+		this.setHardness(2.0F);
+		this.setResistance(15.0F);
+		this.setStepSound(Block.soundTypeStone);
+	}
+
+	@Override
+	public ArrayList<ItemStack> getDrops(World world, int x, int y, int z, int metadata, int fortune) {
+		return Lists.newArrayList(new ItemStack(Main.Ruby));
+	}
 }
-

@@ -1,24 +1,16 @@
 package mastercrafter.rubyore.items;
 
-import net.minecraft.client.renderer.texture.IIconRegister;
+import mastercrafter.rubyore.Main;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
 public class DragoniumSword extends ItemSword {
-
-	private String texturePath = "masterores:";
 
 	public DragoniumSword(ToolMaterial material, String textureName) {
 		super(material);
 		this.setUnlocalizedName(textureName);
-		texturePath += textureName;
-	}
-
-	@Override
-	@SideOnly(Side.CLIENT)
-	public void registerIcons(IIconRegister IIconRegister) {
-		this.itemIcon = IIconRegister.registerIcon(texturePath);
+		this.setTextureName(Main.MODID + ":" + "DragoniumSword");
+		this.setCreativeTab(CreativeTabs.tabTools);
 	}
 
 }
