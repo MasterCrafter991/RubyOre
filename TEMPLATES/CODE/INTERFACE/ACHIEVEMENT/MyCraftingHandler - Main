@@ -1,7 +1,0 @@
-**********************************************************************
-  EXTRA METHODS SECTION
-**********************************************************************
-
-    //  REGISTER CRAFTING HANDLER
-        MyCraftingHandler MyCraftingHandler_1 = new MyCraftingHandler();
-        GameRegistry.registerCraftingHandler(MyCraftingHandler_1);  

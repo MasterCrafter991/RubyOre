@@ -1,8 +1,0 @@
-**********************************************************************
-  EXTRA SECTION
-**********************************************************************
-
-    //  REGISTER PICKUP HANDLER
-        MyPickupHandler MyPickupHandler_1 = new MyPickupHandler();
-        GameRegistry.registerPickupHandler(MyPickupHandler_1);  
-         
