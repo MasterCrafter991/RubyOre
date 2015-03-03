@@ -3,17 +3,26 @@ tile.DragoniumOre.name=Dragonium Ore
 tile.CorruptDiamondOre.name=Corrupt Diamond Ore
 tile.CorruptDiamondBlock.name=Corrupt Diamond Block
 tile.PureDiamondBlock.name=Pure Diamond Block
+tile.CompressedStone.name=Compressed Stone
+tile.CompressedCobblestone.name=Compressed Cobblestone
+tile.CompressedStoneBrick.name=Compressed Stone Brick
+tile.CompressedMossBrick.name=Compressed Moss Brick
+tile.CompressedCrackBrick.name=Compressed Crack Brick
+tile.CompressedChiseledBrick.name=Compressed Chiseled Brick
 
 item.DragoniumShovel.name=Dragonium Shovel
 
 item.DragoniumAxe.name=Dragonium Axe
+item.ZoriumAxe.name=Zorium Axe
 
 item.DragoniumSword.name=Dragonium Sword
 item.RubySword.name=Ruby Sword
+item.ZoriumSword.name=Zorium Sword
 
 item.DragoniumPickaxe.name=Dragonium Pickaxe
 item.RubyPickaxe.name=Ruby Pickaxe
 item.PurePickaxe.name=Pure Pickaxe
+item.ZoriumPickaxe.name=Zorium Pickaxe
 
 item.DragoniumIngot.name=Dragonium Ingot
 item.Ruby.name=Ruby

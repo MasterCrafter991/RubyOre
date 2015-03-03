@@ -22,7 +22,7 @@ public class CompressedStoneGen implements IWorldGenerator {
 		for (int i = 0; i < 9; i++) {
 			int Xcoord = BlockX + random.nextInt(16);
 			int Zcoord = BlockZ + random.nextInt(16);
-			int Ycoord = random.nextInt(55);
+			int Ycoord = random.nextInt(43);
 			(new WorldGenMinable(Main.CompressedStone, 40)).generate(world, random, Xcoord, Ycoord, Zcoord);
 		}
 	}
